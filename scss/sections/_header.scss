@@ -1,0 +1,29 @@
+.header__img {
+    height: 80px;
+    margin: 10px;
+}
+
+.header__nav {
+    text-transform: uppercase;
+    font-family: "texto navegacion";
+  font-size: 20px;
+    ul {
+    
+        padding: 20px;
+        list-style-type: none;
+        display: flex;
+        background-color: #f3f3b1;
+        align-items: center;
+        justify-content: space-evenly
+    }
+    a {
+       color: white;
+       text-decoration: none;
+    }
+
+}
+.header__nav a:hover{
+    background-color:  #f4f4bf;
+    color: rgb(121, 117, 117);
+    
+    }
